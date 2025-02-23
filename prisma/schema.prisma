@@ -1,0 +1,27 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model projects {
+  image        String?
+  features     String  @default(dbgenerated("ARRAY[]::text[]"))
+  link         String
+  id           Int     @id @default(autoincrement())
+  company      String
+  start_year   Int
+  project_name String
+}
+
+model testimonials {
+  image       String?
+  id          Int     @id @default(autoincrement())
+  company     String
+  content     String
+  designation String
+  client_name String
+}
