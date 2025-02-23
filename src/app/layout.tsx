@@ -15,15 +15,15 @@ const calistoga = Calistoga({
 });
 
 export const metadata: Metadata = {
-  title: "Mushood Hanif",
+  title: "Qasim Arshad",
   description:
-    "I specialize in transforming designs into functional, high-performing web applications. Let's discuss your next project.",
+    "As a Senior AI Engineer, I craft intelligent systems with machine learning and generative AI, turning complex challenges into innovative solutions. Let's bring your vision to life!",
   abstract:
-    "I specialize in transforming designs into functional, high-performing web applications. Let's discuss your next project.",
+    "As a Senior AI Engineer, I craft intelligent systems with machine learning and generative AI, turning complex challenges into innovative solutions. Let's bring your vision to life!",
   alternates: {
-    canonical: "https://mushoodhanif.com",
+    canonical: "https://neuralcrafts.tech",
   },
-  applicationName: "Mushood Hanif",
+  applicationName: "Qasim Arshad",
   robots: {
     index: true,
     follow: true,
@@ -32,21 +32,21 @@ export const metadata: Metadata = {
     icon: "/logo.svg",
   },
   openGraph: {
-    title: "Mushood Hanif",
+    title: "Qasim Arshad",
     description:
-      "I specialize in transforming designs into functional, high-performing web applications. Let's discuss your next project.",
-    url: "https://mushoodhanif.com",
-    siteName: "Mushood Hanif",
+      "As a Senior AI Engineer, I craft intelligent systems with machine learning and generative AI, turning complex challenges into innovative solutions. Let's bring your vision to life!",
+    url: "https://neuralcrafts.tech",
+    siteName: "Qasim Arshad",
     images: [
       {
-        url: "https://mushoodhanif.com/og-image.png",
+        url: "https://neuralcrafts.tech/og-image.png",
       },
     ],
     type: "website",
   },
   keywords:
     "Frontend Developer, Developer, Software, Software Engineer, Fullstack Developer, Engineer, Web Apps, Websites, Design, Development",
-  publisher: "Mushood Hanif",
+  publisher: "Qasim Arshad",
 };
 
 export default function RootLayout({
